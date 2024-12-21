@@ -1,0 +1,78 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/* general style */
+
+body{
+    font-family: "Roboto", serif
+}
+
+/* header style */
+
+
+
+header{
+    background-color: #D9D9D9;
+    transition: all 0.5s;
+}
+#icon-1{
+    cursor: pointer;
+}
+
+/* navbar style */
+#navbar{
+    transition: all 0.5s;
+}
+
+/* section 1 styling */
+
+img{
+    width: 100%;
+}
+
+/* section 1 style */
+
+#section-1{
+    transition: all 0.5s;
+}
+
+
+/* footer style */
+
+footer{
+    height: 60vh;
+    background-color: #D9D9D9;
+    transition: all 0.5s;
+}
+.input-bg-color{
+    background-color: #A1A4A8;
+}
+.btn-bg-color{
+    background-color: #8CC958;
+    width: 401.51px;
+    color: white;
+}
+.btn-bg-color:hover{
+    background: white;
+    color: #8CC958;
+}
+.btn-top{
+    height:50px;
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+.btn-top i{
+    font-size:40px;
+    padding: 15px 15px;
+    background-color: #8CC958;
+    color: black;
+    border: none;
+    border-radius: 100%;
+}

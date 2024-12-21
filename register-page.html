@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berimbolo register</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/register-page.css">
+</head>
+<body>
+
+    <main>
+        <section id="login" class="hero">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="inner h-100">
+                        <div class="head">
+                            <h1 class="text-center text-danger display-3 fw-light">Welcome</h1>
+                        </div>
+                        <div class="mb-2 h-100 d-flex flex-column justify-content-center w-50 m-auto mt-5">
+
+                            <div class="form-element">
+                                <label for="FN" class="form-label">First Name</label>
+                                <input type="text" name="First Name" id="FN" class="form-control" placeholder="Enter your first name" aria-describedby="helpId"/>
+                                <p id="first-name-error" class="text-danger text-capitalize"></p>
+                            </div>
+
+                            <div class="form-element">
+                                <label for="LN" class="form-label mt-2">Last Name</label>
+                                <input type="text" name="Last Name" id="LN" class="form-control" placeholder="Enter your Last Name" aria-describedby="helpId"/>
+                                <p id="last-name-error" class="text-danger text-capitalize"></p>
+                            </div>
+
+                            <div class="form-element">
+                                <label for="US" class="form-label mt-2">User Name</label>
+                                <input type="text" name="User Name" id="US" class="form-control" placeholder="Enter your User Name" aria-describedby="helpId"/>
+                                <p id="user-name-error" class="text-danger text-capitalize"></p>
+                            </div>
+
+                            <div class="form-element">
+                                <label for="EM" class="form-label mt-2">Email</label>
+                                <input type="email" name="Email" id="EM" class="form-control" placeholder="Enter your Email" aria-describedby="helpId"/>
+                                <p id="email-error" class="text-danger text-capitalize"></p>
+                            </div>
+
+                            <div class="form-element">
+                                <label for="PS" class="form-label mt-2">Password</label>
+                                <input type="password" name="Password" id="PS" class="form-control" placeholder="Enter your Password" aria-describedby="helpId"/>
+                                <p id="password-error" class="text-danger text-capitalize"></p>
+                            </div>
+
+                            <div class="form-element">
+                                <label for="CPS" class="form-label mt-2">Confirm Password</label>
+                                <input type="password" name="Confirm Password" id="CPS" class="form-control" placeholder="Confirm your password" aria-describedby="helpId"/>
+                                <p id="Confirm-password-error" class="text-danger text-capitalize"></p>
+                            </div>
+                        </div>
+                        <button class="btn btn-success button" id="reg-btn">
+                            register
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/register-page.js"></script>
+</body>
+</html>
